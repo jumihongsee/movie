@@ -1,0 +1,22 @@
+.cont{width: 960px; margin: 0 auto; padding: 20px 10px 45px 10px;}
+.cont .Topsec{
+    height: 240px; display: flex; justify-content: center;
+    align-items: center; flex-wrap: wrap; margin: 25px 0;
+}
+.cont .Topsec .img_sec {
+    width: calc(40% - 20px);
+    margin: 0 10px; 
+}
+
+.cont .Topsec:nth-child(2){flex-direction: row-reverse;}
+
+.cont .Topsec .img_sec img{height: 240px; width: 370px;}
+.cont .Topsec .txt_sec{
+    width: calc(60% - 20px); margin: 0 10px; text-align: center;
+    font-size: 18px; color: #555;
+}
+
+.Bottomsec{
+    height: 360px; margin: 100px 0 200px;
+    width: 60%; width: 500px;
+}

@@ -1,0 +1,41 @@
+/*character.css*/
+.cont{
+    width: 1200px; margin: 0 auto;
+}
+
+.cont .C_box:last-child{padding-bottom: 20px;}
+
+.cont .C_box .box{
+    display: flex;  margin: 20px 10px;
+   justify-content: center;
+    
+}
+
+
+.cont .C_box .img_sec{
+    width: calc(30% - 20px); 
+    height: 100%; 
+}
+.cont .C_box .img_sec img{height: 100%;}
+.cont .C_box .txt_sec{
+    width: calc(70% - 10px);
+    padding-top: 20px;
+    color: #1f232f;
+}
+.cont .C_box .txt_sec p{
+    text-align: left; font-size: 18px;
+}
+
+
+
+
+.cont .C_box .txt_sec h2{
+    padding: 50px 40px; text-align: center;
+    font-size: 24px; font-weight: normal;
+    padding-top: 90px;
+    
+    
+}
+
+.line{width: 95%; margin: 0 auto; height: 1px; background: #71788d;}
+
